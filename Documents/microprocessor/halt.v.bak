@@ -1,0 +1,13 @@
+module halt(CLK,HALT,EN_L,H);
+	input CLK;
+	input HALT;
+	input EN_L;
+	output H;
+	
+	wire prevEN_L;
+	
+	always@(posedge CLK) begin
+		prevEN_L = EN_L;
+	end
+	
+	assign H = (HALT == 1'b1) && (EN_L != prevEN_L);

@@ -1,0 +1,68 @@
+  module register(SA,SB,LD,DR,D_in,DataA,DataB);	
+	input [3:0] SA;
+	input [3:0] SB;
+	input [3:0] LD;
+	input [3:0] DR;
+	input [7:0] D_in;
+	
+	//output DataA;
+	//output DataB;
+	
+	reg [7:0] regA;
+	reg [7:0] regB;
+	reg [7:0] regC;
+	reg [7:0] regD;
+	reg [7:0] regE;
+	reg [7:0] regF;
+	reg [7:0] regG;
+	reg [7:0] regH;
+	
+	//D_in = DataC;
+	
+	always@(*) begin
+		case(SA)
+			3'b000: DataA = regA;
+			3'b001: DataA = regB;
+			3'b010: DataA = regC;
+			3'b011: DataA = regD;
+			3'b100: DataA = regE;
+			3'b101: DataA = regF;
+			3'b110: DataA = regG;
+			3'b111: DataA = regH;
+			default: DataA = 8'b00000000;
+		endcase
+  		case(SB)
+			3'b000: DataB = regA;
+			3'b001: DataB = regB;
+			3'b010: DataB = regC;
+			3'b011: DataB = regD;
+			3'b100: DataB = regE;
+			3'b101: DataB = regF;
+			3'b110: DataB = regG;
+			3'b111: DataB = regH;
+			default: DataB = 8'b00000000;
+		endcase
+		if(RESET == 1'b1) begin
+			regA = 8'b0;
+			regB = 8'b0;
+			regC = 8'b0;
+			regD = 8'b0;
+			regE = 8'b0;
+			regF = 8'b0;
+			regG = 8'b0;
+			regH = 8'b0;
+		end
+		
+		if(LD == 1'b1) begin
+			case(DR)
+				3'b000: regA = D_in;
+				3'b001: regB = D_in;
+				3'b010: regC = D_in;
+				3'b011: regD = D_in;
+				3'b100: regE = D_in;
+				3'b101: regF = D_in;
+				3'b110: regG = D_in;
+				3'b111: regH = D_in;
+			endcase
+		end
+	end

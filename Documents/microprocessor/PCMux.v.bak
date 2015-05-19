@@ -1,0 +1,15 @@
+module PCMux(H, MP, normal, halted, branched PC)
+
+input H;
+input MP;
+
+input normal;
+input halted;
+input branched;
+
+output PC;
+
+assign PC= (H==1'b0 && MP==1'b0) ? normal : ((H==1'b0 && MP == 1'b1) ? branched : halted);
+
+
+endmodule

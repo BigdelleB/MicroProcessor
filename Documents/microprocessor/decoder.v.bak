@@ -1,0 +1,54 @@
+module decoder(Iin,SA,SB,DR,FS,MB,IMM,LD,MW,MD);
+
+	SA = Iin[11:9];
+	SB = Iin[8:6];
+	
+	if (Iin[15:12] == 4'b1111) begin
+		DR = Iin[5:3];
+		FS = Iin[2:0];
+		MB = 1'b0;
+	end
+	else
+		//sign extension
+		IMM = {Iin[5],Iin[5],Iin[5:0]};
+		//immediate
+		case(Iin[15:12])
+			4'b0000: begin
+				MW = 1'b0;
+				LD = 1'b0;
+				MD = 1'b0;
+				MB = 1'b0;
+			end
+			4'b0010: begin
+				LD = 1'b1;
+				MW = 1'b0;
+				MD = 1'b1;
+				MB = 1'b1;
+			end
+			4'b0100: begin
+				LD = 1'b0;
+				MW = 1'b1;
+				MD = 1'b0;
+				MB = 1'b1;
+			end
+			4'b0101: begin
+				MB = 1'b1;
+				MW = 1'b0;
+				MD = 1'b0;
+				LD = 1'b1;
+			end
+			4'b110: begin
+				MD = 1'b0;
+				LD = 1'b1;
+				MW = 1'b0;
+				MB = 1'b1;
+			end
+			4'b0111: begin
+				MD = 1'b0;
+				LD = 1'b1;
+				MW = 1'b0;
+				MB = 1'b1;
+			end
+		endcase
+	end
+end

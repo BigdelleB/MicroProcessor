@@ -1,0 +1,16 @@
+module muxOUT(IN,OSEL,Y);
+  
+  // inputs
+  input	[7:0]		IN;
+  input	[2:0]		OSEL;
+  
+  // outputs
+  output [7:0]		Y;
+  reg		[7:0]		Y;
+
+  // MUX LOGIC:
+  always@(*) begin
+    if
+  end
+
+endmodule

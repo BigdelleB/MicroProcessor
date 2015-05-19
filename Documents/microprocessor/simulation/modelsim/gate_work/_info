@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Brian\Downloads\lab5\simulation\modelsim
+vlab5
+IP9kjQUNHJK?mcB_RfF:3A1
+VKP[S^L>Wi:H^2Sl@MA<<`0
+Z1 dC:\Users\Brian\Downloads\lab5\simulation\modelsim
+w1430179686
+8lab5_fast.vo
+Flab5_fast.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 oS;H71H]Z1<9ZX25bN^N:3
+!s85 0
+!s108 1430189039.785000
+!s107 lab5_fast.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|lab5_fast.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vlab5_test
+!i10b 1
+!s100 a61fA=Q6FBC_m180@4S6j2
+I?lMl3A>I^]6lO83m9ZdiK0
+V]Jm_2niz5TW3C:jnY]Yd@0
+R1
+w1429561948
+8C:/Users/Brian/Downloads/lab5/lab5_test.v
+FC:/Users/Brian/Downloads/lab5/lab5_test.v
+L0 20
+R2
+r1
+!s85 0
+31
+!s108 1430189040.534000
+!s107 C:/Users/Brian/Downloads/lab5/lab5_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Brian/Downloads/lab5|C:/Users/Brian/Downloads/lab5/lab5_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 -O0

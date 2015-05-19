@@ -1,0 +1,21 @@
+module MuxNextPC(Adder, PC, stall,H, MP,  out);
+
+//the 3 options for the next instruction
+input Adder;
+input PC;
+input stall;
+
+//the mux control signals
+input H;
+input MP;
+
+//the ouput of this mux
+output out;
+
+wire [15:0] out;
+
+assign out = (H==1'b0 && MP==1'b0) ? PC : ((H==1'b0 && MP==1'b1) ?  Adder : (((H==1'b1 && MP== 1'b0) ? stall: 15'b0)));  
+
+
+
+endmodule

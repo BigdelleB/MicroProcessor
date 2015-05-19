@@ -1,0 +1,11 @@
+module MuxD(md,Din,DataD,out);
+
+input md;
+input [7:0] Din;
+input [7:0] DataD;
+
+output [7:0] out;
+
+assign out = (md == 1'b1) Din : DataD;
+
+endmodule

@@ -1,0 +1,784 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab5_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/lab5iram2B.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab5iram2B
+# 
+# Top level modules:
+# 	lab5iram2B
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/muxOUT.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxOUT
+# 
+# Top level modules:
+# 	muxOUT
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/lab5.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab5
+# 
+# Top level modules:
+# 	lab5
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/lab5dram.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab5dram
+# 
+# Top level modules:
+# 	lab5dram
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/adder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/shifter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/logical.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module logical
+# 
+# Top level modules:
+# 	logical
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/muxCI.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxCI
+# 
+# Top level modules:
+# 	muxCI
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/hex_to_seven_seg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hex_to_seven_seg
+# 
+# Top level modules:
+# 	hex_to_seven_seg
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/var_clk.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module var_clk
+# -- Compiling module pclock
+# 
+# Top level modules:
+# 	var_clk
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/register.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/MuxB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MuxB
+# 
+# Top level modules:
+# 	MuxB
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/MuxD.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MuxD
+# 
+# Top level modules:
+# 	MuxD
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/muxBB.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxBB
+# 
+# Top level modules:
+# 	muxBB
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/halt.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module halt
+# 
+# Top level modules:
+# 	halt
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/ComparingMUX.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ComparingMUX
+# 
+# Top level modules:
+# 	ComparingMUX
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Brian/Downloads/lab5 {C:/Users/Brian/Downloads/lab5/lab5_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab5_test
+# 
+# Top level modules:
+# 	lab5_test
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  lab5_test
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps lab5_test 
+# Loading work.lab5_test
+# Loading work.lab5
+# Loading work.cpu
+# Loading work.decoder
+# Loading work.register
+# Loading work.alu
+# Loading work.control
+# Loading work.muxCI
+# Loading work.muxBB
+# Loading work.muxOUT
+# Loading work.logical
+# Loading work.shifter
+# Loading work.adder
+# Loading work.hex_to_seven_seg
+# Loading work.MuxB
+# Loading work.MuxD
+# Loading work.halt
+# Loading work.ComparingMUX
+# Loading work.lab5iram2B
+# Loading work.lab5dram
+# Loading work.var_clk
+# Loading work.pclock
+# ** Warning: (vsim-3017) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Too few port connections. Expected 32, found 22.
+# 
+#         Region: /lab5_test/UUT
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'LEDARRAYRED'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'LEDARRAYGREEN'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX7'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX6'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX5'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX4'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX3'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX2'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX1'.
+# 
+# ** Warning: (vsim-3722) C:/Users/Brian/Downloads/lab5/lab5_test.v(88): [TFMPC] - Missing connection for port 'HEX0'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 0 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 200 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr.   0 (PC =   0): LB   R1, -8(R0)
+# MSIM> --> INPUT on IOA of 02
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   1 (PC =   2): LB   R2, -7(R0)
+# MSIM> --> INPUT on IOB of 03
+# MSIM> --> Memory read appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   2 (PC =   4): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 02
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.   3 (PC =   6): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 02
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 600 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr.   4 (PC =   8): SB   R2, -3(R0)
+# MSIM> --> Output on IOF of 03
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.   5 (PC =  10): SRL  R3, R2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   6 (PC =  12): SRA  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   7 (PC =  14): SRA  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   8 (PC =  16): SRA  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.   9 (PC =  18): SLL  R4, R2, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  10 (PC =  20): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  11 (PC =  22): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  12 (PC =  24): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  13 (PC =  26): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  14 (PC =  28): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of 30
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  15 (PC =  30): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 2000 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 0)
+# MSIM> 
+# MSIM> Instr.  16 (PC =  32): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 02
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  17 (PC =  34): ADD  R5, R2, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  18 (PC =  36): ADDI R1, R2, 0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  19 (PC =  38): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 03
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  20 (PC =  40): SB   R5, -3(R0)
+# MSIM> --> Output on IOF of 05
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  21 (PC =  42): SRL  R3, R5
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  22 (PC =  44): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  23 (PC =  46): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  24 (PC =  48): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  25 (PC =  50): SLL  R4, R5, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  26 (PC =  52): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  27 (PC =  54): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  28 (PC =  56): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  29 (PC =  58): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  30 (PC =  60): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of 50
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  31 (PC =  62): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> --> ERROR: You are executing non-HALT instructions when the processor should be halting.
+# MSIM> Instr.  32 (PC =  64): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 03
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 3800 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> ERROR: You are executing non-HALT instructions when the processor should be halting.
+# MSIM> Instr.  33 (PC =  66): ADD  R2, R5, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> --> ERROR: You are executing non-HALT instructions when the processor should be halting.
+# MSIM> Instr.  34 (PC =  68): SUB  R1, R5, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 4000 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> ERROR: You are executing non-HALT instructions when the processor should be halting.
+# MSIM> Instr.  35 (PC =  70): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 05
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  36 (PC =  72): SB   R2, -3(R0)
+# MSIM> --> Output on IOF of 08
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 4200 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr.  37 (PC =  74): SRL  R3, R2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  38 (PC =  76): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  39 (PC =  78): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  40 (PC =  80): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  41 (PC =  82): SLL  R4, R2, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  42 (PC =  84): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  43 (PC =  86): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  44 (PC =  88): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  45 (PC =  90): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  46 (PC =  92): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of 80
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  47 (PC =  94): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 6000 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 0)
+# MSIM> 
+# MSIM> Instr.  48 (PC =  96): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 05
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 6200 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr.  49 (PC =  98): ADD  R5, R2, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  50 (PC = 100): ANDI  R1, R2, -1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  51 (PC = 102): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 08
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  52 (PC = 104): SB   R5, -3(R0)
+# MSIM> --> Output on IOF of 0d
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  53 (PC = 106): SRL  R3, R5
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  54 (PC = 108): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  55 (PC = 110): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  56 (PC = 112): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  57 (PC = 114): SLL  R4, R5, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  58 (PC = 116): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  59 (PC = 118): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  60 (PC = 120): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  61 (PC = 122): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  62 (PC = 124): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of d0
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  63 (PC = 126): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 8000 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 0)
+# MSIM> 
+# MSIM> Instr.  64 (PC = 128): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 08
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 8200 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr.  65 (PC = 130): ADD  R2, R5, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  66 (PC = 132): ORI  R1, R5, 0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  67 (PC = 134): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 0d
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  68 (PC = 136): SB   R2, -3(R0)
+# MSIM> --> Output on IOF of 15
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  69 (PC = 138): SRL  R3, R2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  70 (PC = 140): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  71 (PC = 142): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  72 (PC = 144): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  73 (PC = 146): SLL  R4, R2, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  74 (PC = 148): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  75 (PC = 150): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  76 (PC = 152): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  77 (PC = 154): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  78 (PC = 156): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of 51
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  79 (PC = 158): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 10000 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 0)
+# MSIM> 
+# MSIM> Instr.  80 (PC = 160): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 0d
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 10200 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr.  81 (PC = 162): ADD  R5, R2, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  82 (PC = 164): AND  R1, R2, R2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  83 (PC = 166): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 15
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  84 (PC = 168): SB   R5, -3(R0)
+# MSIM> --> Output on IOF of 22
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  85 (PC = 170): SRL  R3, R5
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  86 (PC = 172): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  87 (PC = 174): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  88 (PC = 176): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  89 (PC = 178): SLL  R4, R5, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  90 (PC = 180): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  91 (PC = 182): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  92 (PC = 184): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  93 (PC = 186): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  94 (PC = 188): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of 22
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr.  95 (PC = 190): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 12000 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 0)
+# MSIM> 
+# MSIM> Instr.  96 (PC = 192): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 15
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 12200 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr.  97 (PC = 194): ADD  R2, R5, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  98 (PC = 196): SUB  R1, R5, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr.  99 (PC = 198): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 22
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 100 (PC = 200): SB   R2, -3(R0)
+# MSIM> --> Output on IOF of 37
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 101 (PC = 202): SRL  R3, R2
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 102 (PC = 204): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 103 (PC = 206): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 104 (PC = 208): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 105 (PC = 210): SLL  R4, R2, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 106 (PC = 212): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 107 (PC = 214): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 108 (PC = 216): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 109 (PC = 218): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 110 (PC = 220): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of 73
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 111 (PC = 222): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 1)
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 0 at time = 14000 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> --> Waiting during a HALT instruction... (EN_L currently 0)
+# MSIM> 
+# MSIM> Instr. 112 (PC = 224): SB   R1, -1(R0)
+# MSIM> --> Output on IOH of 22
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> 
+# MSIM> -----> EN_L = 1 at time = 14200 (ignore until Part C) <-----
+# MSIM> 
+# MSIM> 
+# MSIM> Instr. 113 (PC = 226): ADD  R5, R2, R1
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 114 (PC = 228): SUB  R1, R2, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 115 (PC = 230): SB   R1, -2(R0)
+# MSIM> --> Output on IOG of 37
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 116 (PC = 232): SB   R5, -3(R0)
+# MSIM> --> Output on IOF of 59
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 117 (PC = 234): SRL  R3, R5
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 118 (PC = 236): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 119 (PC = 238): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 120 (PC = 240): SRL  R3, R3
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 121 (PC = 242): SLL  R4, R5, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 122 (PC = 244): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 123 (PC = 246): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 124 (PC = 248): SLL  R4, R4, R0
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 125 (PC = 250): OR   R3, R3, R4
+# MSIM> --> Appears correct (unable to verify that your register file was correctly updated).
+# MSIM> 
+# MSIM> Instr. 126 (PC = 252): SB   R3, -4(R0)
+# MSIM> --> Output on IOE of 95
+# MSIM> --> Memory write appears correct (unable to verify that your register file was not modified).
+# MSIM> 
+# MSIM> Instr. 127 (PC = 254): HALT
+# MSIM> --> The test bench cannot observe HALT.  Manually check the waveform to verify that your processor waits until active low EN_L has been pressed before advancing to the next instruction.
+# MSIM> 
+# MSIM> ----------------------------------------------------------------------
+# MSIM> 
+# MSIM> PROGRAM EXECUTION SUMMARY
+# MSIM> =========================
+# MSIM> 
+# MSIM> OPCODE |  #Tests  | #Correct 
+# MSIM> -------+----------+----------
+# MSIM> NOP    |        0 |      N/A
+# MSIM> LB     |        2 |        2
+# MSIM> SB     |       32 |       32
+# MSIM> ADDI   |        1 |        1
+# MSIM> ANDI   |        1 |        1
+# MSIM> ORI    |        1 |        1
+# MSIM> ADD    |        7 |        7
+# MSIM> SUB    |        3 |        3
+# MSIM> SRA    |        3 |        3
+# MSIM> SRL    |       29 |       29
+# MSIM> SLL    |       32 |       32
+# MSIM> AND    |        1 |        1
+# MSIM> OR     |        8 |        8
+# MSIM> -------+----------+----------
+# MSIM> HALT   |        8 |      N/A
+# MSIM> BEQ    |        0 |        0
+# MSIM> BNE    |        0 |        0
+# MSIM> BGEZ   |        0 |        0
+# MSIM> BLTZ   |        0 |        0
+# MSIM> 
+# MSIM>      Correct Instructions: 120
+# MSIM>    Incorrect Instructions:   0
+# MSIM>   Unverified Instructions:   8
+# MSIM>      Invalid Instructions:   0
+# MSIM> Total Instructions Tested: 128
+# MSIM> 
+# MSIM> WARNING: Errors observed during the HALT instruction.  Scroll up for more details.
+# MSIM> 
+# MSIM> *****************************************************************
+# MSIM> **  You should manually verify that your register file is not  **
+# MSIM> **    being updated incorrectly!  Use the waveform to check    **
+# MSIM> **    this.  Also use the waveform to make sure that when a    **
+# MSIM> **   HALT instruction is reached, that the PC does not change  **
+# MSIM> **   until the active low button EN_L is pressed by the user.  **
+# MSIM> *****************************************************************
+# Break in Module lab5_test at C:/Users/Brian/Downloads/lab5/lab5_test.v line 737
+# Simulation Breakpoint: Break in Module lab5_test at C:/Users/Brian/Downloads/lab5/lab5_test.v line 737
+# MACRO ./lab5_run_msim_rtl_verilog.do PAUSED at line 36
